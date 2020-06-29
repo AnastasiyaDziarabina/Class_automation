@@ -3,9 +3,9 @@
     <listeners>
         <listener class-name="by.stormnet.core.common.AnnotationTransformer"/>
     </listeners>
-    <test verbose="2" name="Onliner laptop test">
+    <test verbose="1" name="Lamoda test">
         <classes>
-            <class name="project.by.stormnet.functional.tests.OnlinerTest"/>
+            <class name="project.by.stormnet.functional.tests.LamodaTest_jenkins"/>
         </classes>
     </test>
 </suite>

@@ -4,9 +4,10 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>stormnet</groupId>
-    <artifactId>stormnet</artifactId>
+    <groupId>com.stormnet</groupId>
+    <artifactId>automation_framework</artifactId>
     <version>1.0</version>
+
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
         <dependency>
@@ -48,7 +49,7 @@
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
-            <!-- Compiler plugin configures the java version to be usedfor compiling
+            <!-- Compiler plugin configures the java version to be used for compiling
             the code -->
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
